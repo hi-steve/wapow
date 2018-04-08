@@ -1,0 +1,36 @@
+{
+
+  "name": "Wapow!",
+  "description" : "If websites have been a distraction for you, Wapow! is here to slap them away.",
+  "version": "1.0",
+  "manifest_version": 2,
+
+	"permissions": [
+		"tabs",			// Access other tabs
+		"activeTab", // Access current tab
+		"webRequest", "webRequestBlocking",
+		"<all_urls>", // Access file URLs
+		"storage" // Allows web storage
+	],
+
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+
+  "browser_action": {
+		"default_popup": "index.html",
+    "default_icon": "img/slap-25.png"
+  },
+
+  "icons": {
+    "16": "img/slap-16.png",
+    "48": "img/slap-48.png",
+    "128": "img/slap-128.png"
+  },
+
+	"options_ui": {
+    "page": "options.html", // Required
+    "chrome_style": true 		// Recommended
+	}
+
+}

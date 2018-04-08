@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin-bottom: 10px;
+}
+nav ul {
+  height: 100px;
+  width: auto;
+  padding-left: 0px;
+  margin: auto;
+  overflow: hidden;
+  overflow-y: scroll;
+  list-style: none;
+}
+li {
+  margin: 1px 3px 1px 5px;
+}

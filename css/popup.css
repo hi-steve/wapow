@@ -1,0 +1,30 @@
+html, body {
+  width: 320px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container {
+  text-align: center;
+}
+#title {
+  margin-top: 12px;
+  margin-bottom: 10px
+}
+#title img {
+  margin-top: 5px;
+}
+button {
+  margin-bottom: 0;
+}
+#url-status {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-style: italic;
+  animation: status 1.5s;
+}
+@keyframes status {
+  from { opacity: 0; }
+  to	 { opacity: 1; }
+}
